@@ -10,6 +10,7 @@
   .container { max-width: 1152px; margin-left: auto; margin-right: auto; padding-left: 1rem; padding-right: 1rem; }
   html { scroll-behavior: smooth; }
 </style>
+<base target="_blank">
 </head>
 <body class="min-h-screen bg-white text-black">
 
@@ -36,11 +37,11 @@
         <div class="order-2 md:order-1">
           <div class="relative">
             <div class="absolute -inset-8 bg-yellow-400 -z-10 transform -rotate-1"></div>
-            <div class="bg-white flex items-center justify-center h-72 md:h-96 overflow-hidden">
+            <div class="bg-white flex items-center justify-center h-96 md:h-[36rem] lg:h-[42rem] overflow-hidden">
               <img
                 src="https://raw.githubusercontent.com/bejaouihamza/portfolio/main/me.png"
                 alt="Hamza Bejaoui"
-                class="w-full h-full object-cover"
+                class="w-full h-full object-cover rounded-lg"
               />
             </div>
           </div>
@@ -111,10 +112,10 @@
 
       <div class="divide-y-2 divide-black/10">
         <!-- BLDC FOC Motor Controller -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center py-10 md:py-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center py-10 md:py-14">
           <div class="">
-            <div class="relative flex items-center justify-center h-72 md:h-88">
-              <img src="https://raw.githubusercontent.com/bejaouihamza/portfolio/main/bldc-foc.png" alt="BLDC FOC Motor Controller" class="w-3/4 h-auto object-contain drop-shadow-2xl relative z-10" />
+            <div class="relative flex items-center justify-center h-96 md:h-[36rem] lg:h-[42rem]">
+              <img src="https://raw.githubusercontent.com/bejaouihamza/portfolio/main/bldc-foc.png" alt="BLDC FOC Motor Controller" class="w-full h-full object-cover rounded-lg drop-shadow-2xl relative z-10 hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
           <div class="space-y-4  bg-white/85 backdrop-blur-[1px] p-6 md:p-8">
@@ -142,10 +143,10 @@
         </div>
 
         <!-- 6-Axis Robotic Arm Controller -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center py-10 md:py-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center py-10 md:py-14">
           <div class="md:order-2">
-            <div class="relative flex items-center justify-center h-72 md:h-88">
-              <img src="https://raw.githubusercontent.com/bejaouihamza/portfolio/main/robotic-arm.png" alt="6-Axis Robotic Arm Controller" class="w-3/4 h-auto object-contain drop-shadow-2xl relative z-10" />
+            <div class="relative flex items-center justify-center h-64 md:h-80 lg:h-96">
+              <img src="https://raw.githubusercontent.com/bejaouihamza/portfolio/main/robotic-arm.png" alt="6-Axis Robotic Arm Controller" class="w-full h-full object-contain rounded-lg drop-shadow-2xl relative z-10 hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
           <div class="space-y-4 md:order-1 bg-white/85 backdrop-blur-[1px] p-6 md:p-8">
@@ -173,13 +174,10 @@
         </div>
 
         <!-- Smart Health Wristband — ESP32-S3 -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center py-10 md:py-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center py-10 md:py-14">
           <div class="">
-            <div class="relative flex items-center justify-center h-72 md:h-88">
-              <div class="text-center">
-                <div class="text-6xl font-bold text-black/80 mb-2">C</div>
-                <p class="text-black/70 font-bold text-sm">Smart Health Wristband — ESP32-S3</p>
-              </div>
+            <div class="relative flex items-center justify-center h-96 md:h-[36rem] lg:h-[42rem]">
+              <img src="https://raw.githubusercontent.com/bejaouihamza/portfolio/main/smart-wristband.png" alt="Smart Health Wristband — ESP32-S3" class="w-full h-full object-cover rounded-lg drop-shadow-2xl relative z-10 hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
           <div class="space-y-4  bg-white/85 backdrop-blur-[1px] p-6 md:p-8">
@@ -207,13 +205,10 @@
         </div>
 
         <!-- Synthewi — Portable Digital Synthesizer -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center py-10 md:py-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center py-10 md:py-14">
           <div class="md:order-2">
-            <div class="relative flex items-center justify-center h-72 md:h-88">
-              <div class="text-center">
-                <div class="text-6xl font-bold text-black/80 mb-2">S</div>
-                <p class="text-black/70 font-bold text-sm">Synthewi — Portable Digital Synthesizer</p>
-              </div>
+            <div class="relative flex items-center justify-center h-96 md:h-[36rem] lg:h-[42rem]">
+              <img src="https://raw.githubusercontent.com/bejaouihamza/portfolio/main/synthewi.png" alt="Synthewi — Portable Digital Synthesizer" class="w-full h-full object-cover rounded-lg drop-shadow-2xl relative z-10 hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
           <div class="space-y-4 md:order-1 bg-white/85 backdrop-blur-[1px] p-6 md:p-8">
@@ -241,13 +236,10 @@
         </div>
 
         <!-- DIY Boost Converter — Arduino Nano PID -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center py-10 md:py-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center py-10 md:py-14">
           <div class="">
-            <div class="relative flex items-center justify-center h-72 md:h-88">
-              <div class="text-center">
-                <div class="text-6xl font-bold text-black/80 mb-2">D</div>
-                <p class="text-black/70 font-bold text-sm">DIY Boost Converter — Arduino Nano PID</p>
-              </div>
+            <div class="relative flex items-center justify-center h-96 md:h-[36rem] lg:h-[42rem]">
+              <img src="https://raw.githubusercontent.com/bejaouihamza/portfolio/main/boost-converter.png" alt="DIY Boost Converter — Arduino Nano PID" class="w-full h-full object-cover rounded-lg drop-shadow-2xl relative z-10 hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
           <div class="space-y-4  bg-white/85 backdrop-blur-[1px] p-6 md:p-8">
@@ -275,10 +267,10 @@
         </div>
 
         <!-- Elyssa — ESP32-S3 Platform -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center py-10 md:py-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center py-10 md:py-14">
           <div class="md:order-2">
-            <div class="relative flex items-center justify-center h-72 md:h-88">
-              <img src="https://raw.githubusercontent.com/bejaouihamza/portfolio/main/elyssa.png" alt="Elyssa — ESP32-S3 Platform" class="w-3/4 h-auto object-contain drop-shadow-2xl relative z-10" />
+            <div class="relative flex items-center justify-center h-96 md:h-[36rem] lg:h-[42rem]">
+              <img src="https://raw.githubusercontent.com/bejaouihamza/portfolio/main/elyssa.png" alt="Elyssa — ESP32-S3 Platform" class="w-full h-full object-cover rounded-lg drop-shadow-2xl relative z-10 hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
           <div class="space-y-4 md:order-1 bg-white/85 backdrop-blur-[1px] p-6 md:p-8">
@@ -366,7 +358,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
         <div class="relative">
           <div class="absolute -inset-8 bg-yellow-400 transform rotate-2 -z-10"></div>
-          <div class="bg-white flex items-center justify-center h-72 md:h-96">
+          <div class="bg-white flex items-center justify-center h-96 md:h-[36rem] lg:h-[42rem]">
             <span class="text-7xl font-bold tracking-tight">HB</span>
           </div>
         </div>
