@@ -84,25 +84,27 @@
 
   <!-- Projects Section -->
   <section id="projects" class="py-16 md:py-24 relative overflow-hidden">
-    <div class="absolute inset-0 -z-20 overflow-hidden pointer-events-none">
-          <div class="absolute" style="top:0.5%; left:60.0%; width:202px; height:202px; background-color:#facc15; opacity:0.42; transform:rotate(12.4deg);"></div>
-          <div class="absolute" style="top:10.9%; left:-7.0%; width:162px; height:162px; background-color:#2563eb; opacity:0.22; transform:rotate(-28.4deg);"></div>
-          <div class="absolute" style="top:-5.1%; left:8.9%; width:294px; height:294px; background-color:#ef4444; opacity:0.31; transform:rotate(10.5deg);"></div>
-          <div class="absolute" style="top:33.7%; left:56.3%; width:334px; height:334px; background-color:#2563eb; opacity:0.20; transform:rotate(-11.2deg);"></div>
-          <div class="absolute" style="top:20.4%; left:-1.2%; width:335px; height:335px; background-color:#ef4444; opacity:0.40; transform:rotate(-28.2deg);"></div>
-          <div class="absolute" style="top:18.3%; left:-5.9%; width:294px; height:294px; background-color:#facc15; opacity:0.19; transform:rotate(-2.8deg);"></div>
-          <div class="absolute" style="top:45.3%; left:74.1%; width:352px; height:352px; background-color:#facc15; opacity:0.21; transform:rotate(-9.7deg);"></div>
-          <div class="absolute" style="top:28.8%; left:11.7%; width:157px; height:157px; background-color:#2563eb; opacity:0.17; transform:rotate(-14.7deg);"></div>
-          <div class="absolute" style="top:52.1%; left:26.1%; width:199px; height:199px; background-color:#ef4444; opacity:0.40; transform:rotate(-3.3deg);"></div>
-          <div class="absolute" style="top:70.7%; left:51.6%; width:319px; height:319px; background-color:#ef4444; opacity:0.20; transform:rotate(7.6deg);"></div>
-          <div class="absolute" style="top:51.1%; left:33.9%; width:326px; height:326px; background-color:#facc15; opacity:0.43; transform:rotate(-16.1deg);"></div>
-          <div class="absolute" style="top:59.9%; left:55.0%; width:316px; height:316px; background-color:#2563eb; opacity:0.38; transform:rotate(24.0deg);"></div>
-          <div class="absolute" style="top:62.7%; left:76.7%; width:208px; height:208px; background-color:#facc15; opacity:0.37; transform:rotate(4.7deg);"></div>
-          <div class="absolute" style="top:79.4%; left:27.6%; width:194px; height:194px; background-color:#ef4444; opacity:0.29; transform:rotate(29.0deg);"></div>
-          <div class="absolute" style="top:64.8%; left:60.8%; width:207px; height:207px; background-color:#2563eb; opacity:0.37; transform:rotate(2.7deg);"></div>
-          <div class="absolute" style="top:105.8%; left:3.1%; width:196px; height:196px; background-color:#2563eb; opacity:0.38; transform:rotate(-0.5deg);"></div>
-          <div class="absolute" style="top:80.6%; left:49.6%; width:360px; height:360px; background-color:#ef4444; opacity:0.28; transform:rotate(20.4deg);"></div>
-          <div class="absolute" style="top:88.4%; left:46.6%; width:156px; height:156px; background-color:#facc15; opacity:0.23; transform:rotate(-2.2deg);"></div>
+    <div class="absolute inset-0 -z-20 overflow-hidden pointer-events-none bg-white">
+          <!-- outer frame -->
+          <div class="absolute inset-0 border-[10px] border-black"></div>
+
+          <!-- main vertical divider -->
+          <div class="absolute bg-black" style="left:38%; top:0; width:10px; height:100%;"></div>
+
+          <!-- upper-left subdivisions -->
+          <div class="absolute bg-black" style="left:0; top:20%; width:38%; height:10px;"></div>
+          <div class="absolute bg-black" style="left:8%; top:0; width:10px; height:20%;"></div>
+
+          <!-- lower-left divider, top edge of the blue block -->
+          <div class="absolute bg-black" style="left:0; top:68%; width:38%; height:10px;"></div>
+
+          <!-- lower-right divider, top edge of the yellow block -->
+          <div class="absolute bg-black" style="left:38%; top:88%; width:62%; height:10px;"></div>
+
+          <!-- color blocks -->
+          <div class="absolute" style="left:38%; top:0; width:40%; height:55%; background-color:#ef4444;"></div>
+          <div class="absolute" style="left:0; top:68%; width:22%; height:20%; background-color:#2563eb;"></div>
+          <div class="absolute" style="left:80%; top:88%; width:12%; height:7%; background-color:#facc15;"></div>
     </div>
     <div class="container relative z-10">
       <div class="flex items-center gap-4 mb-16 md:mb-20">
